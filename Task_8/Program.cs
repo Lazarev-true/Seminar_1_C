@@ -21,5 +21,5 @@ while(N != 0)
         N += 2;
     }
 
-    if(Math.Abs(i) < (Math.Abs(M) - 2)) Console.Write(", ");
+    if(Math.Abs(i) < (Math.Abs(M) - 1)) Console.Write(", ");
 }
