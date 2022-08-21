@@ -14,7 +14,7 @@ if(firstnumber > secondnumber)
     Console.WriteLine("Больше: " + max + " Меньше: " + min);
 }
 
-if(secondnumber > firstnumber)
+else if(secondnumber > firstnumber)
 {
     double max = secondnumber;
     double min = firstnumber;
